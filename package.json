@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "keystone": "^0.3.11",
+    "keystone": "git://github.com/jeffreypriebe/keystone#integrated-insert-view-images",
     "async": "^0.9.0",
     "underscore": "^1.8.0",
     "moment": "^2.8.1",
