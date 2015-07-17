@@ -29,6 +29,7 @@ keystone.init({
 		extname: '.hbs'
 	}).engine,
 	
+	'wysiwyg cloudinary images': true,
 	'cloudinary folders': true,
 	'cloudinary folders use item name': true,
 	
