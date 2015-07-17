@@ -29,6 +29,9 @@ keystone.init({
 		extname: '.hbs'
 	}).engine,
 	
+	'cloudinary folders': true,
+	'cloudinary folders use item name': true,
+	
 	'auto update': true,
 	'session': true,
 	'auth': true,
