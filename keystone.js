@@ -32,6 +32,8 @@ keystone.init({
 	'wysiwyg cloudinary images': true,
 	'cloudinary folders': true,
 	'cloudinary folders use item name': true,
+	'wysiwyg additional buttons': 'cloudinarybrowser, example',
+	'wysiwyg additional plugins': 'cloudinarybrowser, example',
 	
 	'auto update': true,
 	'session': true,
