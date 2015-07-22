@@ -32,7 +32,8 @@ keystone.init({
 	'wysiwyg cloudinary images': true,
 	'cloudinary folders': true,
 	'cloudinary folders use item name': true,
-	'cloudinary browser model name': 'image-folders', 
+	'cloudinary browser model name': 'image-folders', //pluralized, lower-case, it's the list.plural property value
+	'cloudinary browser model field name': 'images',
 	'wysiwyg additional buttons': 'cloudinarybrowser, example',
 	'wysiwyg additional plugins': 'cloudinarybrowser, example',
 	
