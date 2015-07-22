@@ -30,8 +30,8 @@ keystone.init({
 	}).engine,
 	
 	'wysiwyg cloudinary images': true,
-	//'cloudinary folders': true,
-	//'cloudinary folders use item name': true,
+	'cloudinary folders': true,
+	'cloudinary folders use item name': true,
 	'cloudinary browser model name': 'image-folders', 
 	'wysiwyg additional buttons': 'cloudinarybrowser, example',
 	'wysiwyg additional plugins': 'cloudinarybrowser, example',
