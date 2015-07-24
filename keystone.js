@@ -29,13 +29,13 @@ keystone.init({
 		extname: '.hbs'
 	}).engine,
 	
-	'wysiwyg cloudinary images': true,
+	'wysiwyg cloudinary images': false,
 	'cloudinary folders': true,
 	'cloudinary folders use item name': true,
 	'cloudinary browser model name': 'image-folders', //pluralized, lower-case, it's the list.plural property value
 	'cloudinary browser model field name': 'images',
-	'wysiwyg additional buttons': 'cloudinarybrowser, example',
-	'wysiwyg additional plugins': 'cloudinarybrowser, example',
+	'wysiwyg additional buttons': 'cloudinarybrowser',
+	'wysiwyg additional plugins': 'cloudinarybrowser',
 	
 	'auto update': true,
 	'session': true,
