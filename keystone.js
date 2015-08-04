@@ -29,13 +29,17 @@ keystone.init({
 		extname: '.hbs'
 	}).engine,
 	
+	's3 config': { 
+		bucket: 'jp-test-one', 
+	},
+	
 	'wysiwyg cloudinary images': false,
 	'cloudinary folders': true,
 	'cloudinary folders use item name': true,
-	'cloudinary browser model name': 'image-folders', //pluralized, lower-case, it's the list.plural property value
-	'cloudinary browser model field name': 'images',
-	'wysiwyg additional buttons': 'cloudinarybrowser',
-	'wysiwyg additional plugins': 'cloudinarybrowser',
+	//'cloudinary browser model name': 'image-folders', //pluralized, lower-case, it's the list.plural property value
+	//'cloudinary browser model field name': 'images',
+	//'wysiwyg additional buttons': 'cloudinarybrowser, media',
+	//'wysiwyg additional plugins': 'cloudinarybrowser, media',
 	
 	'auto update': true,
 	'session': true,
@@ -71,7 +75,7 @@ keystone.set('routes', require('./routes'));
 
 keystone.set('nav', {
 	'posts': ['posts'],//, 'post-categories'],
-	'media': ['image-folders'],//, 'files'],
+	'media': ['image-folders', 'file-folders'],
 	'users': 'users'
 });
 
