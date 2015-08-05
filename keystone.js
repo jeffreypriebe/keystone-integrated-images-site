@@ -31,15 +31,13 @@ keystone.init({
 	
 	's3 config': { 
 		bucket: 'jp-test-one', 
-		key: 'AKIAJWBMDQGU446RMC3A', 
-		secret: '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',
 	},
 	
 	'wysiwyg cloudinary images': false,
 	'cloudinary folders': true,
 	'cloudinary folders use item name': true,
-	'wysiwyg additional buttons': 'cloudinarybrowserimages, cloudinarybrowserfiles',
-	'wysiwyg additional plugins': 'cloudinarybrowserimages, cloudinarybrowserfiles',
+	'wysiwyg additional buttons': 'cloudinarybrowserfiles cloudinarybrowserimages',
+	'wysiwyg additional plugins': 'cloudinarybrowserfiles, cloudinarybrowserimages',
 	'wysiwyg additional options': {
 		'cloudinarybrowserimages': {
 			'modelName': 'image-folders', //pluralized, lower-case, it's the list.plural property value
