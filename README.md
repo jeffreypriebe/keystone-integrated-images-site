@@ -1,3 +1,6 @@
+If you want to skip to the end and see the final result here:
+https://github.com/jeffreypriebe/keystone/tree/integrated-insert-view-images/admin/public/js/lib/tinymce/plugins/cloudinarybrowser/docs
+
 # Keystone Images (working website)
 
 This is the working website for the work being done to allow for images and files to be inserted in the RTE and also sync with a management of images and files.
